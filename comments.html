@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feed</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;0,800;1,300&family=Roboto:wght@300;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="wrapper">
+
+        <header class="header">
+            <div class="container header__container">
+                <a href="/" class="logo" alt="">
+                    <img src="/img/logo.png" alt="Логотип">
+                </a>
+
+                <ul class="nav">
+                    <li class="nav__item">
+                        <a href="/index.html" class="nav__item-link nav__item--link--main">ГЛАВНАЯ</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="/comments.html" class="nav__item-link nav__item--link--reviews">ОТЗЫВЫ</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="/" class="nav__item-link nav__item--link--services">УСЛУГИ</a>
+                    </li>
+                </ul>
+
+                <address class="contacts">
+                    <a href="tel:+78005553535" class="contacts__number">8(800)-555-35-35</a>
+                    <a href="/" class="contacts__calendar">График работы</a>
+                </address>
+            </div>    
+        </header>
+
+        <div class="container maincontent__container">
+            <nav class="breadcrumbs">
+                <ul class="breadcrumbs__list">
+                    <li class="breadcrumbs__item"><a href="/" class="breadcrumbs__link">Главная </a></li>
+                    <li class="breadcrumbs__item"><a href="/" class="breadcrumbs__link">Главная </a></li>
+                    <li class="breadcrumbs__item"><a href="/" class="breadcrumbs__link breadcrumbs__link--unactive">Главная </a></li>
+                </ul>
+            </nav>
+
+            <div class="feeds__title">ОТЗЫВЫ</div>
+            <div class="feeds">
+                <ul class="feeds__list">
+                    <li class="feeds__item">
+                        <img src="/img/feeds/main__feeds/feeds__ava1.png" alt="Аватар1" class="feeds__item-pic">
+                        <div class="feeds__item-div">
+                            <div class="feeds__item-date">22.12.2015</div>
+                            <div class="feeds__item-title">Lorem ipsum dolor sit amet.</div>
+                            <div class="feeds__item-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae sequi, ex nihil voluptatibus ut commodi rerum atque! Repudiandae tempora est illo, accusamus illum omnis ut dolorum dolore saepe laboriosam dolor!</div>
+                        </div>
+                    </li>
+                    <li class="feeds__item">
+                        <img src="/img/feeds/main__feeds/feeds__ava2.png" alt="Аватар2" class="feeds__item-pic">
+                        <div class="feeds__item-div">
+                            <div class="feeds__item-date">22.12.2015</div>
+                            <div class="feeds__item-title">Lorem ipsum dolor sit amet.</div>
+                            <div class="feeds__item-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium exercitationem blanditiis asperiores tempora debitis recusandae quis non ducimus ipsam ut, error suscipit, et dolor ab ratione in eius soluta est.</div>
+                        </div>
+                    </li>
+                    <li class="feeds__item">
+                        <img src="/img/feeds/main__feeds/feeds__ava3.png" alt="Аватар3" class="feeds__item-pic">
+                        <div class="feeds__item-div">
+                            <div class="feeds__item-date">22.12.2015</div>
+                            <div class="feeds__item-title">Lorem ipsum dolor sit amet.</div>
+                            <div class="feeds__item-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias mollitia cupiditate doloremque earum nemo nihil explicabo asperiores, fugit nesciunt vel repudiandae. Amet enim sapiente atque nihil accusantium doloremque ut iure?</div>
+                        </div>
+                    </li>
+                    <li class="feeds__item">
+                        <img src="/img/feeds/main__feeds/feeds__ava4.png" alt="Аватар3" class="feeds__item-pic">
+                        <div class="feeds__item-div">
+                            <div class="feeds__item-date">22.12.2015</div>
+                            <div class="feeds__item-title">Lorem ipsum dolor sit amet.</div>
+                            <div class="feeds__item-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias mollitia cupiditate doloremque earum nemo nihil explicabo asperiores, fugit nesciunt vel repudiandae. Amet enim sapiente atque nihil accusantium doloremque ut iure?</div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="pagination">
+                <div class="pagination__display">Страница 1 из 7</div>
+                <ul class="pagination__pages-list">
+                    <li class="pagination__pages-item"><a href="" class="pagination__pages-link">
+                        <img src="/img/main/buttons/left-non.png" alt="" class="prev-pic pagination-button">
+                    </a></li>
+                    <li class="pagination__pages-item"><a href="" class="pagination__prev"><div class="pagination__pages-link--active">1</div></a></li>
+                    <li class="pagination__pages-item"><a href="" class="pagination__pages-link">2</a></li>
+                    <li class="pagination__pages-item"><a href="" class="pagination__pages-link">3</a></li>
+                    <li class="pagination__pages-item"><a href="" class="pagination__pages-link">4</a></li>
+                    <li class="pagination__pages-item"><a href="" class="pagination__pages-link">5</a></li>
+                    <li class="pagination__pages-item"><a href="" class="pagination__pages-link">6</a></li>
+                    <li class="pagination__pages-item"><a href="" class="pagination__pages-link">7</a></li>
+                    <li class="pagination__pages-item"><a href="" class="pagination__next">
+                        <img src="/img/main/buttons/right.png" alt="" class="next-pic pagination-button pagination-button--active">
+                    </a></li>
+                </ul>
+            </div>
+
+        </div>    
+
+            <div class="notice">
+                <div class="container">
+                    <div class="notice__text">
+                        Помимо перечисленных услуг, мы предоставляем консультации профессиональных диетологов, тренеров, психологов. Также есть кабинет массажа, зал спа рядом с бассейном и возможность арендовать центр для проведения массовых мероприятий. Ждем ваших заявок!
+                    </div>
+                </div>
+            </div>
+
+        <div class="container maincontent__container">
+
+            <div class="form">
+                <div class="form__title">Оставить отзыв</div>
+                <form action="" class="fedds__form">
+                    <input type="text" class="form__name" placeholder="Андрей">
+                    <input type="text" class="form__link" placeholder="vk.com/example">
+                    <input type="text" class="form__text" placeholder="Мне понравилось...">
+                    <input type="radio" name="" id="" class="form__pic">
+                    <button class="submit">ОТПРАВИТЬ</button>
+                </form>
+            </div>
+
+        </div>    
+    </div>
+    </div>    
+</body>
+</html>
