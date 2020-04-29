@@ -1,0 +1,31 @@
+.hamburger {
+    display: none;
+}
+
+.hamburger__menu {
+    cursor: pointer;
+    width: rem(25px);
+    height: rem(25px);
+}
+
+.links__list {
+    margin: 0;
+    padding: 0;
+}
+
+.hamburger__item {
+    background-color: #fff;
+    border-radius: rem(3px);
+    height: rem(4px);
+    margin-bottom: rem(5px);
+}
+
+@include tablets {
+    .hamburger {
+        display: block;
+    }
+
+    .links__list {
+        display: none;
+    }
+}

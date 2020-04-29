@@ -1,0 +1,138 @@
+$blue: #86c3d7;
+$dark-blue: #60aacc;
+$green: #365a49;
+$dark-green: #2e4e3f;
+
+.delivery {
+    background: url('/image/delivery.png');
+    width: rem(940px);
+    margin: auto;
+    padding: 0 rem(80px);
+    display: flex;
+}
+
+.delivery__title {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: rem(48px);
+    font-weight: bold;
+    margin-top: rem(86px);  
+    margin-bottom: rem(55px);
+}
+
+.delivery__form {
+    display: flex;
+    color: $green;
+    font-size: rem(18px);
+    font-weight: normal;
+}
+
+.form__left {
+    width: rem(465px);
+    height: rem(385px);
+    margin-right: rem(20px);
+}
+
+.form__left-list {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.left__block {
+    display: flex;
+    flex-direction: column;
+}
+
+.form__left-top {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: rem(20px);
+}
+
+.form__left--input-top {
+    width: rem(218px);
+    height: rem(60px);
+    margin-right: rem(20px);
+}
+
+.form__left-mid {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: rem(20px);
+}
+
+.form__left--input-mid {
+    width: rem(460px);
+    height: rem(60px);
+    margin-right: rem(20px);
+}
+
+.form__left-bottom {
+    display: flex;
+    flex-direction: row;
+}
+
+.form__left--input-bottom {
+    width: rem(97px);
+    height: rem(60px);
+    margin-right: rem(20px);
+}
+
+.right__block-comm {
+    display: flex;
+    flex-direction: column;
+}
+
+.form__left--input-bottom {
+    width: rem(97px);
+    height: rem(60px);
+    margin-right: rem(20px);
+}
+
+.form__right--input-top {
+    width: rem(450px);
+    height: rem(180px);
+    margin-bottom: rem(20px);
+}
+
+.form__right-list {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.form__right-mid {
+    margin-right: rem(20px);
+    display: flex;
+    align-items: center;
+}
+
+.form__right--input-mid {
+    margin-right: rem(10px);
+}
+
+.form__right--input-mid-check {
+    margin-bottom: rem(40px);
+    margin-right: rem(10px);
+}
+
+.btn-form {
+    width: rem(156px);
+    height: rem(58px);
+    background-color: $green;
+    border-radius: rem(30px);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-weight: 700;
+    font-size: rem(20px);
+    color: #ffffff;
+}
+
+.btn__link-form {
+    text-decoration: none;
+    color: #ffffff;
+}

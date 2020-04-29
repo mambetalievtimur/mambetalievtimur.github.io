@@ -1,0 +1,43 @@
+// colors
+$blue: #86c3d7;
+$dark-blue: #60aacc;
+$green: #365a49;
+$dark-green: #2e4e3f;
+
+// displays 
+$phones: 480px;
+$tablets: 768px;
+$laptop: 992px;
+$desktop: 1200px;
+
+
+// media 
+@import "_misc/_media.scss";
+
+// misc 
+@import "_misc/_font.scss";
+@import "_misc/_layout.scss";
+@import "_misc/_normalize.scss";
+
+
+// hero
+@import "sections/_hero.scss";
+// why
+@import "sections/_why.scss";
+// reviews
+@import "sections/_reviews.scss";
+// team
+@import "sections/_team.scss";
+// menu 
+@import "sections/_menu.scss";
+// delivery 
+@import "sections/_delivery.scss";
+// footer 
+@import "sections/_footer.scss";
+
+// sprite 
+@import "sprite/_sprite.scss";
+
+// blocks 
+@import "blocks/_hamburger.scss";
+@import "blocks/fixedmenu";

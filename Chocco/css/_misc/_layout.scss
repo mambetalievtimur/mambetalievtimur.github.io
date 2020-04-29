@@ -1,0 +1,47 @@
+html {
+    font-size: 16px;
+
+    @include tablets {
+        font-size: 15px;
+    }
+
+    @include phones {
+        font-size: 14px;
+    }
+}
+
+.wrapper {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+body {
+    font-size: rem(16px);
+}
+
+.section {
+    height: rem(650px);
+}
+
+.container {
+    width: 95%;
+    max-width: rem(1100px);
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+@include tablets {
+    .container {
+        max-width: rem(768px);
+    }
+
+    .section {
+        height: rem(1000px);
+    }
+}
+
+ul > li {
+    list-style: none;
+}

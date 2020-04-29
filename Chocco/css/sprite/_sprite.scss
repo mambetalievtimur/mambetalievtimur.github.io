@@ -1,0 +1,56 @@
+$blue: #c6f7ff;
+$green: #365a49;
+
+
+.contacts__pic {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: white;
+}
+
+.hero__features-pic {
+    margin-right: -50px;
+    display: inline-block;
+    width: 5em;
+    height: 3em;
+}
+
+.why__pic {
+    display: inline-block;
+    width: 16em;
+    height: 6em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+}
+
+.icon-team_arrow {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+}
+
+.footer__contacts-pic {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    stroke-width: 1;
+    stroke: $green;
+    fill: $green;
+}
+
+.socials__pic {
+    margin-left: 20px;
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+}

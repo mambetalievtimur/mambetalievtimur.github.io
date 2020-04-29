@@ -1,0 +1,57 @@
+.menu {
+    height: rem(650px);
+    background: url('/image/menu.png') no-repeat;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.menu__title {
+    height: rem(48px);
+    margin-top: rem(100px);
+    margin-left: rem(80px);
+    font-size: rem(48px);
+    font-weight: bold;
+}
+
+.menu__accordeon {
+    position: absolute;
+    width: rem(940px);
+    height: rem(650px);
+}
+
+.menu__list {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    margin-left: rem(155px);
+}
+
+.menu__item {
+    width: 10%;
+    height: rem(650px);
+    display: flex;
+}
+
+.menu__hidden {
+    width: 0;
+    height: rem(650px);
+    overflow: hidden;
+}
+
+@include tablets {
+    .container {
+        width: 100%;
+        max-width: 50rem;
+    }
+
+    .menu__accordeon {
+        width: rem(646px);
+    }
+
+    .menu__item {
+        margin-right: rem(41px);
+    }
+}
