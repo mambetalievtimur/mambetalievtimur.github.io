@@ -1,0 +1,30 @@
+.footer {
+    display: flex;
+    align-items: center;
+    font-size: rem(21px);
+    height: rem(95px);
+    margin: auto;
+}
+
+.footer__content {
+    display: flex;
+    justify-content: space-between;
+    height: rem(65px);
+    align-items: center;
+}
+
+.footer__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.footer__socials {
+    height: rem(20px);
+}
+
+@include phones {
+    .footer {
+        width: rem(480px);
+    }
+}

@@ -1,0 +1,131 @@
+.hero {
+    max-height: rem(650px);
+    // width: 68.75rem;
+    margin: auto;
+    background: url('/image/bgs/hero_bg.jpg') center center / cover no-repeat;
+}
+
+.hero__content {
+    margin-top: rem(90px);
+    display: flex;
+}
+.hero__content-pic {
+    margin-top: rem(-90px);
+    height: rem(523px);
+    margin-left: rem(165px);
+}
+
+.hero__desc {
+    width: rem(341px);
+    color: white;
+}
+
+.hero__title {
+    font-weight: 700;
+    font-size: rem(48px);
+    margin-bottom: rem(44px);
+}
+
+.hero__subtitle {
+    font-size: rem(18px);
+}
+
+.hero__list {
+    display: flex;
+    margin-top: rem(70px);
+}
+
+.hero__item {
+    display: flex;
+    width: rem(150px);
+    justify-content: space-between;
+    align-items: center;
+    margin-right: rem(45px);
+}
+
+.hero__item-pic {
+    margin-right: rem(10px);
+}
+
+@include tablets {
+    .hero {
+        margin: 0;
+        width: 100%;
+        max-width: rem(840px);
+    }
+
+    .hero__content {
+        flex-direction: column-reverse;
+        margin-top: 0;
+        align-items: center;
+    }
+
+    .hero__content-pic {
+        width: 50%;
+        height: 50%;
+        margin-top: rem(122px);
+        margin-left: 0;
+    }
+
+    .hero__desc {
+        width: rem(652px);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero__title {
+        text-align: center;
+    }
+
+    .hero__subtitle {
+        width: rem(340px);
+        text-align: center;
+    }
+    
+    .hero__features {
+        display: none;
+    }
+}
+
+@include phones {
+    .hero {
+        // margin: 0;
+        // width: 100%;
+        // max-width: rem(480px);
+    }
+
+    .hero__content {
+        flex-direction: column-reverse;
+        margin-top: 0;
+        align-items: center;
+    }
+
+    .hero__content-pic {
+        width: 60%;
+        height: 60%;
+        margin-top: rem(30px);
+        margin-left: 0;
+    }
+
+    .hero__desc {
+        width: rem(291px);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero__title {
+        text-align: center;
+        margin-bottom: rem(15px);
+    }
+
+    .hero__subtitle {
+        width: rem(340px);
+        text-align: center;
+    }
+    
+    .hero__features {
+        display: none;
+    }
+}

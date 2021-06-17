@@ -1,0 +1,45 @@
+html,
+body {
+    height: 100%;
+    font-size: 16px;
+
+    @include tablets {
+        font-size: 15px;
+    }
+
+    @include phones {
+        font-size: 14px;
+    }
+}
+
+h1, h2, h3, h4, h5, h6{
+    margin-top: 0;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 940px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper {
+    position: relative;
+    width: 100%;
+    min-height: 100%;
+    overflow: hidden;
+}
+
+@include tablets {    
+    .container {
+        max-width: rem(786px);
+    }
+}
+
+@include phones {
+    .container {
+        max-width: rem(480px);
+    }
+}

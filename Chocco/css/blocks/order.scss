@@ -1,0 +1,38 @@
+.order {
+    max-height: rem(650px);
+    background: url('/image/bgs/order.png') center center no-repeat;
+}
+
+.order__title {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: rem(85px) 0 rem(55px) 0;
+    font-size: rem(48px);
+    font-weight: bold;
+    color: #365a49;
+}
+
+@include tablets {
+    .order {
+        background: url(/image/bgs/order.png) 0 0;
+        margin: 0;
+    }
+
+    .order__title {
+        margin-top: rem(190px);
+        margin-bottom: rem(40px);
+    }
+}
+
+@include phones {
+    .order {
+        background: url(/image/bgs/order.png) 0 0;
+        margin: 0;
+    }
+
+    .order__title {
+        margin-top: rem(95px);
+        margin-bottom: rem(35px);
+    }
+}

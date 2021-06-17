@@ -1,0 +1,22 @@
+.section {
+    height: 100vh;
+    min-width: rem(650px);
+    width: rem(1100px);
+    margin: auto;
+    overflow-x: hidden;
+
+    @include tablets {
+        height: rem(1000px);
+        min-height: rem(1000px);
+        max-width: rem(768px);
+        overflow-x: hidden;
+    }
+
+    @include phones {
+        height: rem(800px);
+        min-height: rem(800px);
+        max-width: rem(480px);
+        min-width: rem(528px);
+        overflow-x: hidden;
+    }
+}

@@ -1,0 +1,157 @@
+.reviews {
+    display: flex;
+    flex-direction: column;
+    max-height: rem(650px);
+}
+
+.reviews__title {
+    display: flex;
+    justify-content: center;
+    font-size: rem(48px);
+    font-weight: bold;
+    margin: rem(70px) 0 rem(45px)
+}
+
+.reviews__content {
+    display: flex;
+    flex-direction: column;
+}
+
+.reviews__info {
+    background-image: url(/image/bgs/reviews_info.png);
+    display: flex;
+    align-items: center;
+    width: rem(940px);
+    height: rem(345px);
+    margin-bottom: rem(30px);
+}
+
+.reviews__info_pic-wrap {
+    display: flex;
+    width: rem(250px);
+    height: rem(250px);
+    overflow: hidden;
+    margin: 0 rem(20px) 0 rem(45px);
+}
+
+.reviews__info_pic {
+    height: 150%;
+}
+
+.reviews__info_about {
+    width: rem(470px);
+    height: rem(240px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.reviews__info_title {
+    font-size: rem(30px);
+    font-weight: bold;
+}
+
+.reviews__info_text {
+    font-size: rem(18px);
+    font-weight: normal;
+    color: #666666;
+}
+
+.reviews__info_name {
+    font-size: rem(18px);
+    font-weight: 500;
+}
+
+.reviews__list {
+    display: flex;
+    justify-content: center;
+}
+
+.reviews__item {
+    width: rem(70px);
+    height: rem(70px);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: rem(10px);
+    overflow: hidden;
+
+    &-active{
+        width: rem(80px);
+        height: rem(80px);
+        background-color: #365a49;
+    }
+}
+
+.reviews__item-img {
+    width: rem(70px);
+    height: rem(70px);
+    border-radius: 50%;
+}
+
+@include tablets {
+    .reviews__title {
+        margin-top: rem(200px);
+    }
+
+    .reviews__info {
+        background: url('/image/bgs/reviews_info.png') rem(750px) rem(70px);
+        width: rem(720px);
+        height: rem(417px);
+        margin: 0 0 rem(35px) 0;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .reviews__info_pic-wrap {
+        width: rem(135px);
+        height: rem(135px);
+        margin-top: rem(55px);
+    }
+
+    .reviews__info_about {
+        margin-top: rem(20px);
+        text-align: center;
+        height: rem(210px);
+        width: 100%;
+    }
+
+    .reviews__info_text {
+        width: rem(680px);
+        padding: 0 0 0 rem(40px);
+    }
+}
+
+@include phones {
+    .reviews__title {
+        margin-top: rem(90px);
+        margin-bottom: rem(34px);
+    }
+
+    .reviews__info {
+        background: url('/image/bgs/reviews_info.png') rem(750px) rem(70px);
+        width: 100%;
+        height: rem(420px);
+        margin: 0 0 rem(25px) 0;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .reviews__info_pic-wrap {
+        height: rem(120px);
+        margin-top: rem(60px);
+    }
+
+    .reviews__info_about {
+        margin-top: rem(20px);
+        text-align: center;
+        height: rem(240px);
+        width: 100%;
+    }
+
+    .reviews__info_text {
+        width: 75%;
+        padding: 0 0 0 rem(64px);
+    }
+}

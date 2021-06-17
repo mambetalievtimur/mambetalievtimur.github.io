@@ -1,0 +1,123 @@
+.why {   
+    max-height: rem(650px);
+    width: rem(1100px);
+    margin: auto;
+    background: url('/image/bgs/why.png') 0 rem(170px) no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+.why__titles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: rem(95px);
+}
+
+.why__title {
+    font-size: rem(45px);
+    font-weight: bold;
+}
+
+.why__subtitle {
+    width: rem(455px);
+    font-size: rem(18px);
+    font-weight: normal;
+}
+
+.why__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: rem(90px);
+}
+
+.why__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: rem(255px);
+}
+
+.why__item-desc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.why__item-title {
+    margin-top: rem(64px);
+    margin-bottom: rem(30px);
+    font-size: rem(27px);
+    font-weight: bold;
+}
+
+.why__item-subtitle {
+    font-size: rem(18px);
+    font-weight: 300;
+    width: rem(305px);
+    text-align: center;
+}
+
+@include tablets {
+    .why__item-subtitle {
+        width: 100%;
+    }
+
+    .why__titles {
+        margin-top: rem(290px);
+    }
+
+    .why__item {
+        width: rem(225px);
+    }
+
+    .why {
+        background: url('/image/bgs/why-tab.png') 1rem rem(425px) no-repeat;
+    }
+}
+
+@include phones {
+    .why__item-subtitle {
+        width: 100%;
+    }
+
+    .why__titles {
+        margin-top: rem(55px);
+    }
+
+    .why__list {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: rem(20px);
+        margin-left: rem(20px);
+    }
+
+    .why__item {
+        width: rem(470px);
+        flex-direction: row;
+
+        &-pic {
+            margin-top: rem(30px);
+        }
+
+        &-desc {
+            margin-left: rem(40px);
+            align-items: flex-start;
+        }
+
+        &-subtitle {
+            text-align: left;
+        }
+    }
+
+    .why__item-title {
+        margin: rem(60px) 0 rem(25px) 0;
+        text-align: left;
+    }
+
+    .why {
+        background: white;
+    }
+}
